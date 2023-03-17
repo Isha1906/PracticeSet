@@ -2,7 +2,9 @@
  * -IV-
  * */
 
-public class FizzBuzz {
+import interf.A;
+
+public class FizzBuzz implements A{
 
 	public static void main(String[] args) 
 	{
@@ -21,8 +23,18 @@ public class FizzBuzz {
 			{
 				System.out.println(" Fizz");
 			}
-				
+			else {
+				System.out.println(i);	
+			}
+			
+			
 		}
+		
+	}
+
+	@Override
+	public void net() {
+		// TODO Auto-generated method stub
 		
 	}
 
